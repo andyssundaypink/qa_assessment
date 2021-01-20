@@ -1,0 +1,141 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search for a Star Wars Planets",
+    "line": 1,
+    "id": "search-for-a-star-wars-planets",
+    "tags": [],
+    "uri": "e2e/features/search-planet.feature",
+    "elements": [
+      {
+        "id": "search-for-a-star-wars-planets;search-a-planet",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search a planet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for planet \"Hoth\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see planet with \"Hoth\" details",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-planets;search-a-planet",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search a planet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for planet \"tooi\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see planet with \"tooi\" details",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "87.0.4280.88"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
